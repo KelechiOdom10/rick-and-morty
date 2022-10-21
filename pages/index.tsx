@@ -58,13 +58,17 @@ const Home: NextPage = () => {
                 sx={{ height: SECONDARY_COL_HEIGHT }}
                 radius="sm"
               >
+                <Overlay
+                  opacity={0.5}
+                  gradient="linear-gradient(to right top, rgba(0, 0, 0, 0.9) 50%, transparent)"
+                  zIndex={5}
+                />
                 <Center sx={{ height: "100%" }} p="md">
                   <Button variant="white" sx={{ zIndex: 99, color: "black" }}>
                     Episodes
                   </Button>
                 </Center>
               </BackgroundImage>
-              <Overlay opacity={0.5} color="#000" zIndex={5} />
             </Box>
           </Grid.Col>
           <Grid.Col span={6}>
@@ -78,13 +82,17 @@ const Home: NextPage = () => {
                 sx={{ height: SECONDARY_COL_HEIGHT }}
                 radius="sm"
               >
+                <Overlay
+                  opacity={0.5}
+                  gradient="linear-gradient(to right top, rgba(0, 0, 0, 0.9) 50%, transparent)"
+                  zIndex={5}
+                />
                 <Center sx={{ height: "100%" }} p="md">
                   <Button variant="white" sx={{ zIndex: 99, color: "black" }}>
                     Locations
                   </Button>
                 </Center>
               </BackgroundImage>
-              <Overlay opacity={0.5} color="#000" zIndex={5} />
             </Box>
           </Grid.Col>
           <Grid.Col span={6}>
