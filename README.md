@@ -2,9 +2,9 @@
 
 # Rick and Morty GraphQL App
 
-Introduction
----------------------
-This is a Next.js client application which consumes the Rick and Morty API. The goal of this project was to create a fan website to showcase one of my favoriite shows while learning more about GraphQL and testing custom hooks and components. 
+## Introduction
+
+This is a Next.js client application which consumes the Rick and Morty API. The goal of this project was to create a fan website to showcase one of my favoriite shows while learning more about GraphQL and testing custom hooks and components.
 
 ## Technologies 🔧
 
@@ -24,13 +24,13 @@ git clone https://github.com/KelechiOdom10/rick-and-morty.git
 Install deps:
 
 ```bash
-npm install
+pnpm install
 ```
 
 Run Next dev server:
 
 ```bash
-npm run dev
+pnpm run dev
 ```
 
 ## Contributing
