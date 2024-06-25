@@ -43,7 +43,6 @@ export const getStaticProps = async ({ params }: GetStaticPropsContext) => {
       props: {
         id: episode?.id,
       },
-      revalidate: 1,
     });
   } catch (error) {
     return {

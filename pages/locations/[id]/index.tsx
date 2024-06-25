@@ -46,7 +46,6 @@ export const getStaticProps = async ({ params }: GetStaticPropsContext) => {
       props: {
         id: location?.id,
       },
-      revalidate: 1,
     });
   } catch (error) {
     return {

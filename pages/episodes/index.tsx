@@ -17,7 +17,6 @@ export const getStaticProps = async () => {
 
     return addApolloState(apolloClient, {
       props: {},
-      revalidate: 1,
     });
   } catch (error) {
     return {

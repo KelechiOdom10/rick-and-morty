@@ -48,7 +48,6 @@ export const getStaticProps = async ({ params }: GetStaticPropsContext) => {
       props: {
         id: character?.id,
       },
-      revalidate: 1,
     });
   } catch (error) {
     return {
